@@ -22,7 +22,6 @@ def numberCheck(startNumber, endNumber):
 			break
 
 diff = (endNumber - startNumber)//2
-print(diff)
 # Create two threads as follows
 try:
    _thread.start_new_thread( numberCheck, (startNumber, (endNumber-diff), ) )
