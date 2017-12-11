@@ -1,0 +1,23 @@
+Hi There,
+
+I currently a moveable character on a webpage but I want prevent it from going out of the screen's bounds.
+Please could you give me an idea and some basic code on how to approach this problem?
+
+Thanks!
+
+==================
+
+Hi [student],
+
+lets start with the css by setting your overflow property to hidden so the page doesn't overscroll
+
+As far as keeping him from going off the page, your solution of checking his position is correct, 
+however, that position is being calcualted from the top left pixel of the image. 
+	all we need to do to fix this is take the image dimesions into consideration when calculating the maxium thresholds
+
+I have altered scripts.js to show you what I mean (see line 29)
+
+I have also linted your code for you. please take note of the correct spacing and consistant use of tabs.
+
+Your Mentor,
+James
